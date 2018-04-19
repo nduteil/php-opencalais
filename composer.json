@@ -1,0 +1,23 @@
+{
+    "name": "nduteil/opencalais",
+    "description": "A PHP library for Reuters OpenCalais API",
+    "license": "MIT",
+    "type": "library",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "Nicolas Duteil",
+            "email": "nduteil@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenCalais\\": "src/OpenCalais"
+        }
+    },
+    "minimum-stability": "dev"
+}
